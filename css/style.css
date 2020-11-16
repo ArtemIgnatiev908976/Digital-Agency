@@ -911,6 +911,7 @@ textarea {
   margin: auto;
 }
 .left-side .follow-us {
+  font-size: 1vw;
   width: 100px;
   font-family: "Fjalla One", sans-serif;
   color: #fff;
