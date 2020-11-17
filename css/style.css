@@ -392,7 +392,7 @@ textarea {
   left: 0;
   top: 0;
   z-index: 11;
-  background: #75dab4;
+  background: #007bff;
   text-align: center;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -502,7 +502,7 @@ textarea {
   -webkit-transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  background: #75dab4;
+  background: #007bff;
 }
 .page-transition .layer {
   width: 0;
@@ -550,7 +550,7 @@ textarea {
   -webkit-transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  background: #75dab4;
+  background: #007bff;
   padding-left: 120px;
 }
 .site-navigation .layer {
@@ -635,7 +635,7 @@ textarea {
   transition: 0.25s ease-in-out;
 }
 .site-navigation .inner ul li a:hover {
-  color: #75dab4;
+  color: #007bff;
   text-decoration: none;
 }
 .site-navigation.active {
@@ -672,7 +672,7 @@ textarea {
   right: -100%;
   top: 0;
   z-index: 3;
-  background: #75dab4;
+  background: #007bff;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease;
@@ -735,7 +735,7 @@ textarea {
   color: #fff;
 }
 .social-media .inner ul li a:hover {
-  color: #75dab4;
+  color: #007bff;
   text-decoration: none;
 }
 .social-media.active {
@@ -763,7 +763,7 @@ textarea {
   right: -100%;
   top: 0;
   z-index: 3;
-  background: #75dab4;
+  background: #007bff;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease;
@@ -872,7 +872,7 @@ textarea {
   cursor: pointer;
 }
 .all-cases-link b:hover {
-  background: #75dab4;
+  background: #007bff;
   text-decoration: none;
   color: #fff;
 }
@@ -1142,7 +1142,7 @@ textarea {
 }
 .video-hero .inner a:hover {
   text-decoration: none;
-  color: #75dab4;
+  color: #007bff;
 }
 
 /* CAROUSEL HERO */
@@ -1221,7 +1221,7 @@ textarea {
 }
 .carousel-hero .carousel-slider .swiper-slide .inner a:hover {
   text-decoration: none;
-  color: #75dab4;
+  color: #007bff;
 }
 .carousel-hero .swiper-button-prev {
   height: auto;
@@ -1382,7 +1382,7 @@ textarea {
 .intro a {
   color: #fff;
   font-size: 17px;
-  border-bottom: 1px solid #75dab4;
+  border-bottom: 1px solid #007bff;
   padding-bottom: 5px;
 }
 .intro a:hover {
@@ -1622,7 +1622,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   padding: 100px 80px;
-  background: #75dab4;
+  background: #007bff;
   color: #222327;
 }
 .testimonials .testimonial blockquote {
@@ -1748,7 +1748,7 @@ textarea {
   padding: 5px;
 }
 .team figure ul li a:hover {
-  color: #75dab4;
+  color: #007bff;
 }
 
 /* WORKS */
@@ -1983,7 +1983,7 @@ textarea {
   padding: 3px 6px;
 }
 .blog .sidebar .widget .tags li a:hover {
-  color: #75dab4;
+  color: #007bff;
   text-decoration: none;
 }
 .blog .sidebar .widget .mini-works {
@@ -2149,7 +2149,7 @@ textarea {
   color: #161619;
 }
 .blog .post .post-content .post-title a:hover {
-  color: #75dab4;
+  color: #007bff;
   text-decoration: none;
 }
 .blog .post .post-content .post-author {
@@ -2194,7 +2194,7 @@ textarea {
   padding: 3px 6px;
 }
 .blog .post .post-content .post-categories li a:hover {
-  color: #75dab4;
+  color: #007bff;
   text-decoration: none;
 }
 .blog .post .post-content .post-link {
@@ -2203,7 +2203,7 @@ textarea {
   padding-bottom: 5px;
 }
 .blog .post .post-content .post-link:hover {
-  color: #75dab4;
+  color: #007bff;
   text-decoration: none;
 }
 
@@ -2376,7 +2376,7 @@ textarea {
   font-size: 13px;
 }
 .footer ul li a:hover {
-  color: #75dab4;
+  color: #007bff;
 }
 .footer h6 {
   font-family: "Fjalla One", sans-serif;
@@ -2393,7 +2393,7 @@ textarea {
 .footer .link {
   color: #fff;
   font-size: 17px;
-  border-bottom: 1px solid #75dab4;
+  border-bottom: 1px solid #007bff;
   padding-bottom: 5px;
 }
 .footer .link:hover {
@@ -2421,7 +2421,7 @@ textarea {
 }
 .footer .footer-bar .creation a:hover {
   text-decoration: none;
-  color: #75dab4;
+  color: #007bff;
 }
 
 /* RESPONSIVE TABLET FIXES */
