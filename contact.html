@@ -62,17 +62,10 @@
     <!-- end layer -->
     <div class="inner">
         <ul data-splitting>
-            <li><a href="index.html">Главная</a>
-                <!--                <i class="fas fa-caret-down"></i> <small>First page</small>-->
-                <!--                <ul>-->
-                <!--                    <li><a href="index.html">HOME SLIDER</a></li>-->
-                <!--                    <li><a href="index-video.html">HOME VIDEO</a></li>-->
-                <!--                    <li><a href="index-carousel.html">HOME CAROUSEL</a></li>-->
-                <!--                </ul>-->
-            </li>
+            <li><a href="index.html">Главная</a></li>
             <li><a href="web.html">Разработка</a> </li>
-            <li><a href="web.html">Дизайн</a> </li>
-            <li><a href="web.html">Реклама</a> </li>
+            <li><a href="design.html">Дизайн</a> </li>
+            <li><a href="advertising.html">Реклама</a> </li>
             <li><a href="contact.html">Контакты</a> </li>
         </ul>
     </div>
@@ -97,16 +90,7 @@
 <div class="all-cases">
   <div class="layer"> </div>
   <!-- end layer -->
-  <div class="inner">
-    <ul>
-      <li><a href="#">Darkness</a></li>
-      <li><a href="#">Goddes</a></li>
-      <li><a href="#">Employee</a></li>
-      <li><a href="#">Berry</a></li>
-      <li><a href="#">Roosters</a></li>
-      <li><a href="#">Primero</a></li>
-    </ul>
-  </div>
+
   <!-- end inner --> 
 </div>
 <!-- end all-cases -->
@@ -138,7 +122,7 @@
     <!-- end equalizer --> 
   </aside>
   <!-- end left-side -->
-    <div class="all-cases-link"> <span>+7 (909) 343 - 47 -15</span></div>
+    <div class="all-cases-link"> <span>+7 (999) 170-45-05</span></div>
   <!-- end all-cases-link -->
   <header class="page-header">
   <div class="video-bg">
@@ -173,8 +157,8 @@
     	<div class="col-lg-3 col-md-6">
     		<h6>Контакты</h6>
     		<address>
-    			<p>+38 02 237 24 21</p>
-    			<a href="#">hello@Blaze.com.ua</a>
+    			<p>+7 (999) 170-45-05</p>
+    			<a href="#">info@blazedesign.ru</a>
     		</address>
     	</div>
     	<!-- end col-3 -->
@@ -187,7 +171,21 @@
     	<!-- end col-5 -->
     	<div class="col-lg-7">
     		<div class="contact-form">
-			 <form id="contact" name="contact" method="post">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			 <form id="contact" name="contact" method="post" action="https://formspree.io/f/xknppdny">
           <div class="form-group">
             <input type="text" name="name" id="name" autocomplete="off" required>
              <span>Имя</span>
@@ -215,7 +213,15 @@
           </div>
           <!-- end form-group -->
         </form>
-        <!-- end form --> 
+        <!-- end form -->
+
+
+
+
+
+
+
+
          <div class="form-group">
           <div id="success" class="alert alert-success" role="alert">
               Ваше сообщение было успешно отправлено! Мы свяжемся с вами, как только сможем. </div>
@@ -239,6 +245,89 @@
 <!-- end main -->
 
 <!-- end footer -->
+
+
+
+
+
+
+
+
+
+<form id="my-form"
+      action="https://formspree.io/f/xknppdny"
+      method="POST"
+>
+    <label>Email:</label>
+    <input type="email" name="email" />
+    <label>Message:</label>
+    <input type="text" name="message" />
+    <button id="my-form-button">Submit</button>
+    <p id="my-form-status"></p>
+</form>
+
+
+
+
+
+<script>
+    window.addEventListener("DOMContentLoaded", function() {
+
+        // get the form elements defined in your form HTML above
+
+        let form = document.getElementById("contact");
+        let button = document.getElementById("submit");
+        let status = document.getElementById("my-form-status");
+
+        // Success and Error functions for after the form is submitted
+
+        function success() {
+            form.reset();
+            button.style = "display: none ";
+            window.location.href = "thanks.html"
+        }
+
+        function error() {
+            status.innerHTML = "Oops! There was a problem.";
+        }
+
+        // handle the form submission event
+
+        form.addEventListener("submit", function(ev) {
+            ev.preventDefault();
+            var data = new FormData(form);
+            ajax(form.method, form.action, data, success, error);
+        });
+    });
+
+    // helper function for sending an AJAX request
+
+    function ajax(method, url, data, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState !== XMLHttpRequest.DONE) return;
+            if (xhr.status === 200) {
+                success(xhr.response, xhr.responseType);
+            } else {
+                error(xhr.status, xhr.response, xhr.responseType);
+            }
+        };
+        xhr.send(data);
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- JS FILES --> <script src="js/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
